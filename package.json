@@ -1,0 +1,20 @@
+{
+  "name": "wcw-testnet-backend",
+  "version": "1.0.0",
+  "description": "WAX Cloud Wallet testnet backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InfinityBloks/wcw-testnet-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GNU GPL V3",
+  "bugs": {
+    "url": "https://github.com/InfinityBloks/wcw-testnet-backend/issues"
+  },
+  "homepage": "https://github.com/InfinityBloks/wcw-testnet-backend#readme"
+}

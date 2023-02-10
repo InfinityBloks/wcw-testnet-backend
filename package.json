@@ -4,7 +4,8 @@
   "description": "WAX Cloud Wallet testnet backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,25 @@
   "bugs": {
     "url": "https://github.com/InfinityBloks/wcw-testnet-backend/issues"
   },
-  "homepage": "https://github.com/InfinityBloks/wcw-testnet-backend#readme"
+  "homepage": "https://github.com/InfinityBloks/wcw-testnet-backend#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "enf-eosjs": "^23.0.0-rc4",
+    "eosjs-ecc": "^4.0.7",
+    "express": "^4.18.1",
+    "express-brute": "^1.0.1",
+    "express-brute-redis": "0.0.1",
+    "express-rate-limit": "^6.7.0",
+    "express-validator": "^6.14.3",
+    "node-abort-controller": "^3.0.1",
+    "node-fetch": "^2.6.7",
+    "pg": "^8.7.3",
+    "rate-limit-redis": "^3.0.1",
+    "redis": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/text-encoding": "0.0.36"
+  }
 }
